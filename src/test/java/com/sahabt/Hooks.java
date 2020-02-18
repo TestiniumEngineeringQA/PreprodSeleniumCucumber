@@ -39,7 +39,6 @@ public class Hooks {
       }
     }
     webDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-    webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     webDriver.manage().window().fullscreen();
   }
 

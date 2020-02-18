@@ -362,11 +362,6 @@ public class Steps {
     getOptions().timeouts().setScriptTimeout(scriptTimeOut, TimeUnit.SECONDS);
   }
 
-  @And("^Set implicitly wait \"([^\"]*)\" seconds$")
-  public void setImplicitlyWait(int implicitlyWait) {
-    getOptions().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS);
-  }
-
   @And("^Fullscreen to window$")
   public void fullScreen() {
     getOptions().window().fullscreen();
