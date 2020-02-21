@@ -38,8 +38,6 @@ public class Hooks {
         e.printStackTrace();
       }
     }
-    webDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-    webDriver.manage().window().fullscreen();
   }
 
   @After
