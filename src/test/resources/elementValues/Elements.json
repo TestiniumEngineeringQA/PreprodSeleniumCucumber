@@ -38,5 +38,15 @@
     "key": "random",
     "value": "//a[1]",
     "type": "xpath"
+  },
+  {
+    "key": "amazonlogo",
+    "value": "nav-logo-sprites",
+    "type": "id"
+  },
+  {
+    "key": "konumugüncelle",
+    "value": "nav-global-location-popover-link",
+    "type": "id"
   }
 ]
