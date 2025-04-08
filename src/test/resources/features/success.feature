@@ -1,4 +1,4 @@
-Feature: example
+Feature: success
 
   @success
   Scenario: success
@@ -12,6 +12,9 @@ Feature: example
     Then Wait 2 seconds
     Then Click to element "closebutton"
     Then Wait 2 seconds
+
+
+
 
 
 
