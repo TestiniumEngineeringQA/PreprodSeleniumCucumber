@@ -56,8 +56,8 @@
   },
   {
     "key": "searchbuttontext",
-    "value": "//input[@name=\"field-keywords\"]",
-    "type": "name"
+    "value": "#twotabsearchtextbox",
+    "type": "id"
   },
   {
     "key": "searchbutton",
