@@ -11,9 +11,9 @@ Feature: example
     Scenario: Success
       Given Go to "https://www.amazon.com.tr/"
       Then Wait 2 seconds
-      Then Elemente Tikla id "nav-logo-sprites"
+      Then Click to element "nav-logo-sprites"
       Then Wait 2 seconds
-      Then Elemente Tikla id "nav-global-location-popover-link"
+      Then Click to element "nav-global-location-popover-link"
       Then Wait 2 seconds
 
 

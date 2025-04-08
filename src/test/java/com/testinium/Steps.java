@@ -355,12 +355,6 @@ public class Steps extends BaseTest {
         }
     }
 
-    @And("Elemente Tikla id {string}")
-    public void elementineTıklaa(String key) {
-        WebElement element =driver.findElement(By.id(key));
-        element.click();
-    }
-
     @Then("Wait {int} seconds")
     public void waitSeconds(int second) {
         try {
