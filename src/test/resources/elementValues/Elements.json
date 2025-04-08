@@ -48,5 +48,20 @@
     "key": "konumugüncelle",
     "value": "nav-global-location-popover-link",
     "type": "id"
+  },
+  {
+    "key": "closebutton",
+    "value": ".a-button-close.a-declarative",
+    "type": "id"
+  },
+  {
+    "key": "searchbuttontext",
+    "value": "twotabsearchtextbox",
+    "type": "id"
+  },
+  {
+    "key": "searchbutton",
+    "value": "nav-search-submit-button",
+    "type": "id"
   }
 ]
