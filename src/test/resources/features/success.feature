@@ -78,7 +78,6 @@ Feature: success
     Then Click to element "closebutton"
     Then Wait 2 seconds
 
-  @success+05
   Scenario: success05
     Given Go to "https://www.amazon.com.tr/"
     Then Wait 2 seconds
@@ -92,7 +91,52 @@ Feature: success
     Then Wait 2 seconds
 
 
+  Scenario: Get post with no tag
+    Given Go to "https://www.amazon.com.tr/"
+    Then Wait 2 seconds
+    Then Click to element "random"
+    Then Wait 2 seconds
+    Then Click to element "amazonlogo"
+    Then Wait 2 seconds
+    Then Click to element "konumugüncelle"
+    Then Wait 2 seconds
+    Then Click to element "closebutton"
+    Then Wait 2 seconds
 
+  @getPostWithNoName
+  Scenario:
+    Given Go to "https://www.amazon.com.tr/"
+    Then Wait 2 seconds
+    Then Click to element "random"
+    Then Wait 2 seconds
+    Then Click to element "amazonlogo"
+    Then Wait 2 seconds
+    Then Click to element "konumugüncelle"
+    Then Wait 2 seconds
+    Then Click to element "closebutton"
+    Then Wait 2 seconds
 
+  @getPostWithNameAndTag
+  Scenario: Get Post With Name And Tag
+    Given Go to "https://www.amazon.com.tr/"
+    Then Wait 2 seconds
+    Then Click to element "random"
+    Then Wait 2 seconds
+    Then Click to element "amazonlogo"
+    Then Wait 2 seconds
+    Then Click to element "konumugüncelle"
+    Then Wait 2 seconds
+    Then Click to element "closebutton"
+    Then Wait 2 seconds
 
-
+  Scenario: @getPostWithTagOnName
+    Given Go to "https://www.amazon.com.tr/"
+    Then Wait 2 seconds
+    Then Click to element "random"
+    Then Wait 2 seconds
+    Then Click to element "amazonlogo"
+    Then Wait 2 seconds
+    Then Click to element "konumugüncelle"
+    Then Wait 2 seconds
+    Then Click to element "closebutton"
+    Then Wait 2 seconds
